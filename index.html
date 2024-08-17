@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <center>
+    <div class="container">
+        <h1>Alarm Clock</h1>
+        <div class="image">
+            <img src="istockphoto-1333130434-612x612.jpg">
+        </div>
+       
+        <h1 id="clock"></h1>
+
+        <div>
+            <label id="label" for="alarm-time">Set Alarm Time :</label>
+            <input type="time"id="alarm-time">
+            <button id="btn" onclick="setAlarm()">Set Alarm</button>
+        </div>
+        <div class="alarms-list" id="alarms-list">
+            <h2>Alarms List</h2>
+          </div>
+        </div>
+        <audio id="alarmSound" src="twirling-intime-lenovo-k8-note-alarm-tone-41440.mp3"></audio>
+        <script src="script.js"></script>
+      
+    </div>
+</center>
+</body>
+</html>
